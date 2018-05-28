@@ -1,0 +1,213 @@
+/** CSS-Dokument **/
+
+/** Autor: Dominik Böhler, hawthorn Agentur für Medien **/
+
+/** Gliederung: 
+	1. Allgemeine Formate
+	2. Spezielle Formate
+	**/
+
+
+/** 1. Allgemeine Formate **/
+html {
+
+	scrollbar-3dlight-color:  #369;
+ 	scrollbar-arrow-color: #369;
+ 	scrollbar-darkshadow-color:  #369;
+ 	scrollbar-face-color: #fff;
+	scrollbar-highlight-color:  #fff;
+ 	scrollbar-shadow-color:  #fff;
+ 	scrollbar-track-color: #fff;
+
+}
+
+body {
+	
+	font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	
+	color: #369;
+	
+	}
+
+
+img {
+	
+	display: block;
+	
+	border: 0;	
+	
+	}
+
+
+a {
+
+	text-decoration: none;
+	color: #369;
+
+}
+
+a:hover {
+
+	color: #333;
+
+	}
+
+
+h1, h2, h3, h4 , h5, h6 {
+
+	font-size: 0.8em;
+
+	margin-top: 25px;
+	margin-bottom: 10px;
+
+	}
+
+
+p, table, form {
+
+	font-size: 11px;
+
+	line-height: 17px;
+
+	margin-bottom: 5px;
+
+	}
+
+ul {
+
+	margin-top: 0;
+
+   	font-size: 11px;
+
+	list-style-type: none;
+
+	color: #333;
+
+	}
+
+blockquote {
+
+	font-size: 11px;
+	color: #333;
+	line-height: 22px;
+
+}
+
+
+
+
+
+
+/** Spezielle Formate **/
+
+
+#inner-frame {
+	
+	display: block;
+
+	
+	
+	border: 1px solid #369;
+	border-top: 0;
+	
+	margin-left: 31px;
+	margin-top: -30px;
+	
+	width: 742px;
+	
+	/* Box Model Hack */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	
+	width: 740px;
+	
+	}
+	
+html>body #inner-frame {
+	/* be kind to opera */
+	width: 738px;
+	
+}
+
+
+#div-header {
+
+	background-color: white;
+	z-index: 0;
+
+	}
+
+#div-header img {
+
+	display: inline !important;
+
+	}
+
+
+#h3-headline {
+	
+	margin-top: 9px;
+	margin-left: 200px;
+	
+	font-size: 16px;
+
+	}
+
+#ul-submenu {
+	
+	position: relative;
+
+	top: 30px;
+	left: 25px;
+	
+	list-style-type: none;
+	
+	font-size: 16px;
+	
+	margin-bottom: 60px;
+	
+	}
+
+#ul-submenu li {
+	
+	margin: 10 0 10 0;
+	
+		}
+
+
+#ul-submenu li a {
+
+	padding: 3 5;
+
+}
+
+#ul-submenu li a:hover {
+	
+	color: white;
+	
+	background-color: #369;
+	
+	}
+
+#div-content  {
+	
+	width: 400px;
+		
+	margin: -120 0 30 280;
+	
+	}
+	
+#p-standard-menu {
+	
+	margin-left: 650px;
+	margin-top: 5px;
+	
+	font-size: 11px;
+		
+	}
+	
+#p-standard-menu a:hover {
+	
+	border-bottom: 1px dashed #369;
+	
+	}
